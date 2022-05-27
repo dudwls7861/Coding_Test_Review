@@ -17,10 +17,6 @@ public class codingTest02_조영진 {
             totP *= i;
         }
         answer = totP / (4 * 3 * 2); // 문제에서 명확하게 4명을 뽑으라고 했으므로, 굳이 팩토리얼은 구현하지 않고 4*3*2로 하드코딩
-        return answer; / 리턴!
-    }
-    public static void main(String[] args){
-        String[] names = {"제로", "베이스", "자바", "스쿨", "자바", "베이스", "베이스", "백엔드", "화이팅"};
-        System.out.println(solution(names));
+        return answer; // 리턴!
     }
 }

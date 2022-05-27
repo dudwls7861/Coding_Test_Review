@@ -1,4 +1,4 @@
-public class codingTest05_조영진 { // 하다 말았습니다ㅜㅜ 이모양이 되기 전에 4점이었습니다.
+public class codingTest05_조영진 { // 하다 말았습니다ㅜㅜ 이모양이 되기 전에 4점이었습니다..
     public static long solution(int N, int M, int K, int[] capacity) {
         int diff;
         int temp = 0;
@@ -49,9 +49,5 @@ public class codingTest05_조영진 { // 하다 말았습니다ㅜㅜ 이모양�
         }
 
         return temp / mFact;
-    }
-    public static void main(String[] args){
-        int[] arr = {5, 3, 4};
-        System.out.println(solution(10, 3, 4, arr));
     }
 }

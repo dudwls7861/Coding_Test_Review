@@ -15,9 +15,6 @@ public class codingTest01_조영진 {
         }
         answer -= count; //처음에 설정했던 answer에서 소수가 아닌 수의 갯수를 뺌
 
-        return answer; //리턴
-    }
-    public static void main(String[] args){
-        System.out.println(solution(18));
+        return answer; //리턴!
     }
 }
